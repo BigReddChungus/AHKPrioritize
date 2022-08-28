@@ -1,6 +1,8 @@
 # AHKPrioritize
 
 Note: This is NOT perfect, it can mess up if areas of the search zone contain pixels of the similar color. I've noticed it snap to sand mines and farms. If it is selecting the wrong thing, try adjusting your pixel search area or rotating your camera so your view changes and the pixel doesn't get picked up.
+
+I have the MsgBox errors turned on by default, but once you get it working you can turn it off by removing the lines
 Usage:
 
 You will need to change the coordinates of the Relocate.ahk and PrioritizePixelSearch.ahk files and use the GetMouseCoordinates.ahk file to determine the coordinates of the the upper and lower region (Y-axis) as well as the Width of it (X-axis) of the Prioritize Box as well as the building relocate button. Otherwise you will pick up pixels on the screen that are of the similar color, but since we tell it the coordinates to search in, it will only pick up pixels in that search area, meaning we identify the pixel range of the box we want to click.
