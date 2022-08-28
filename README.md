@@ -11,7 +11,7 @@ So you would want to find the coordiantes of these boxes and make sure that you'
 
 Prioritize Box Example:
 <img src="/ExampleSearchArea.png" alt="Alt text" title="Optional title">
-I have specified the coordinates for this box, I foudn it using the GetMouseCoordinates AHK tool and clicked on the areas of the box to find the zone it's in, so in the file PrioritizePixelSearch.ahk the coordinates for this area are 1760-1815 for the x-axis, and 640-647 for the y axis. You will need to change these values for your own screen/HUD-size/resolution
+I have specified the coordinates for this box, I foudn it using the GetMouseCoordinates AHK tool which is bound to Numpad0 by default. Then I clicked on the areas of the box to find the zone it's in, so in the file PrioritizePixelSearch.ahk the coordinates for this area are 1760-1815 for the x-axis, and 640-647 for the y axis. You will need to change these values for your own screen/HUD-size/resolution
 
 
 Relocate Building Example:
